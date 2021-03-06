@@ -43,6 +43,7 @@
 /home/fraser/catkin_ws/build/f1tenth_simulator/CMakeFiles/actionlib_generate_messages_eus.dir
 /home/fraser/catkin_ws/build/f1tenth_simulator/CMakeFiles/actionlib_msgs_generate_messages_py.dir
 /home/fraser/catkin_ws/build/f1tenth_simulator/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir
+/home/fraser/catkin_ws/build/f1tenth_simulator/CMakeFiles/LaserScan.dir
 /home/fraser/catkin_ws/build/f1tenth_simulator/CMakeFiles/actionlib_generate_messages_py.dir
 /home/fraser/catkin_ws/build/f1tenth_simulator/CMakeFiles/tf2_msgs_generate_messages_py.dir
 /home/fraser/catkin_ws/build/f1tenth_simulator/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir

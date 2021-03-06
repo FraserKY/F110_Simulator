@@ -228,6 +228,21 @@ actionlib_msgs_generate_messages_lisp/fast:
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
+f1tenth_simulator/CMakeFiles/LaserScan.dir/rule:
+	cd /home/fraser/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 f1tenth_simulator/CMakeFiles/LaserScan.dir/rule
+.PHONY : f1tenth_simulator/CMakeFiles/LaserScan.dir/rule
+
+# Convenience name for target.
+LaserScan: f1tenth_simulator/CMakeFiles/LaserScan.dir/rule
+
+.PHONY : LaserScan
+
+# fast build rule for target.
+LaserScan/fast:
+	cd /home/fraser/catkin_ws/build && $(MAKE) -f f1tenth_simulator/CMakeFiles/LaserScan.dir/build.make f1tenth_simulator/CMakeFiles/LaserScan.dir/build
+.PHONY : LaserScan/fast
+
+# Convenience name for target.
 f1tenth_simulator/CMakeFiles/actionlib_generate_messages_py.dir/rule:
 	cd /home/fraser/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 f1tenth_simulator/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : f1tenth_simulator/CMakeFiles/actionlib_generate_messages_py.dir/rule
@@ -1322,6 +1337,33 @@ keyboard/fast:
 	cd /home/fraser/catkin_ws/build && $(MAKE) -f f1tenth_simulator/CMakeFiles/keyboard.dir/build.make f1tenth_simulator/CMakeFiles/keyboard.dir/build
 .PHONY : keyboard/fast
 
+node/LaserScan.o: node/LaserScan.cpp.o
+
+.PHONY : node/LaserScan.o
+
+# target to build an object file
+node/LaserScan.cpp.o:
+	cd /home/fraser/catkin_ws/build && $(MAKE) -f f1tenth_simulator/CMakeFiles/LaserScan.dir/build.make f1tenth_simulator/CMakeFiles/LaserScan.dir/node/LaserScan.cpp.o
+.PHONY : node/LaserScan.cpp.o
+
+node/LaserScan.i: node/LaserScan.cpp.i
+
+.PHONY : node/LaserScan.i
+
+# target to preprocess a source file
+node/LaserScan.cpp.i:
+	cd /home/fraser/catkin_ws/build && $(MAKE) -f f1tenth_simulator/CMakeFiles/LaserScan.dir/build.make f1tenth_simulator/CMakeFiles/LaserScan.dir/node/LaserScan.cpp.i
+.PHONY : node/LaserScan.cpp.i
+
+node/LaserScan.s: node/LaserScan.cpp.s
+
+.PHONY : node/LaserScan.s
+
+# target to generate assembly for a file
+node/LaserScan.cpp.s:
+	cd /home/fraser/catkin_ws/build && $(MAKE) -f f1tenth_simulator/CMakeFiles/LaserScan.dir/build.make f1tenth_simulator/CMakeFiles/LaserScan.dir/node/LaserScan.cpp.s
+.PHONY : node/LaserScan.cpp.s
+
 node/behavior_controller.o: node/behavior_controller.cpp.o
 
 .PHONY : node/behavior_controller.o
@@ -1606,6 +1648,7 @@ help:
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_lisp"
+	@echo "... LaserScan"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_nodejs"
@@ -1682,6 +1725,9 @@ help:
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... f1tenth_simulator_generate_messages_lisp"
 	@echo "... keyboard"
+	@echo "... node/LaserScan.o"
+	@echo "... node/LaserScan.i"
+	@echo "... node/LaserScan.s"
 	@echo "... node/behavior_controller.o"
 	@echo "... node/behavior_controller.i"
 	@echo "... node/behavior_controller.s"

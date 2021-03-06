@@ -337,6 +337,19 @@ actionlib_msgs_generate_messages_lisp/fast:
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named LaserScan
+
+# Build rule for target.
+LaserScan: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LaserScan
+.PHONY : LaserScan
+
+# fast build rule for target.
+LaserScan/fast:
+	$(MAKE) -f f1tenth_simulator/CMakeFiles/LaserScan.dir/build.make f1tenth_simulator/CMakeFiles/LaserScan.dir/build
+.PHONY : LaserScan/fast
+
+#=============================================================================
 # Target rules for targets named actionlib_generate_messages_py
 
 # Build rule for target.
@@ -1311,6 +1324,7 @@ help:
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_lisp"
+	@echo "... LaserScan"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_nodejs"
